@@ -22,10 +22,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-    apiKey: 'AIzaSyAcAHMHor2kjMIeQmIEHXaTI0fW2Dti2Gk',
-    appId: '1:95313598913:ios:ab90bb33804cedee64f740',
-    messagingSenderId: '95313598913',
-    projectId: 'down-syndrome-63b13',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
   ));
   runApp(const PaymentsTracker());
 }
